@@ -1,0 +1,36 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    width: 99%;
+}
+
+.button {
+    display: block;
+    padding: 15px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 0.2rem;
+    background-color: rgba(57, 162, 219, 0.6);
+    color: white;
+    text-align: left;
+    transition: background-color 0.2s;
+    cursor: default;
+}
+
+.infoSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.span {
+    font-size: 1rem;
+    margin: 0 2rem;
+}
+
+.requirement {
+    padding-right: 17rem;
+    font-size: 1rem;
+}
