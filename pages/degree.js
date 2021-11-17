@@ -7,19 +7,19 @@ import CancelIcon from '@mui/icons-material/Cancel';
 
 export default function Degree() {
     let bee = [<Collapsible
-        contents={[<Course text="Course" grade="100" credits="3" key="1"/>,
-        <Course text="Course" grade="100" credits="3" key="2"/>,
-        <Course text="Course" grade="100" credits="3" key="3"/>]}
+        contents={[<Course text="Course" grade="Grade: 100" credits="Credits: 3" key="1"/>,
+        <Course text="Course" grade="Grade: 100" credits="Credits: 3" key="2"/>,]}
         text="Requirement"
         completed="50%"
         icon={<WatchLaterIcon/>}
-        cip="5/12"
+        cip="6/12"
         key="r1"
     />,
     <Collapsible
-        contents={[<Course text="Course" grade="100" credits="3" key="1"/>,
-        <Course text="Course" grade="100" credits="3" key="2"/>,
-        <Course text="Course" grade="100" credits="3" key="3"/>]}
+        contents={[<Course text="Course" grade="Grade: 100" credits="Credits: 3" key="1"/>,
+        <Course text="Course" grade="Grade: 100" credits="Credits: 3" key="2"/>,
+        <Course text="Course" grade="Grade: 100" credits="Credits: 3" key="3"/>,
+        <Course text="Course" grade="Grade: 100" credits="Credits: 3" key="4"/>]}
         text="Requirement"
         completed="100%"
         cip="12/12"
@@ -27,7 +27,7 @@ export default function Degree() {
         key="r2"
     />,
     <Collapsible
-        contents={[]}
+        contents={[<Course text="Link to suggestions" key="1"/>]}
         text="Requirement"
         completed="0%"
         cip="0/12"
@@ -46,6 +46,7 @@ export default function Degree() {
             </div>
             <div className={styles.collapsibleWrapper}>
                 <Collapsible contents={bee} text="Major" completed="50%" cip="60/120" icon={<WatchLaterIcon/>}/>
+                <Collapsible contents={bee} text="Major 2" completed="50%" cip="60/120" icon={<WatchLaterIcon/>}/>
             </div>
         </section>
     )

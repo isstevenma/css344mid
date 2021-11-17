@@ -10,10 +10,10 @@ const Course = ({ text, grade, credits }) => {
                         {text}
                     </span>
                     <span className={styles.span}>
-                        Grade: {grade}
+                        {grade}
                     </span>
                     <span className={styles.span}>
-                        Credits: {credits}
+                        {credits}
                     </span>
                 </div>
             </button>
