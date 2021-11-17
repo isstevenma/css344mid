@@ -7,22 +7,24 @@ import CancelIcon from '@mui/icons-material/Cancel';
 
 export default function Degree() {
     let bee = [<Collapsible
-        contents={[<Course text="Course" grade="100" credits="3" />,
-        <Course text="Course" grade="100" credits="3" />,
-        <Course text="Course" grade="100" credits="3" />]}
+        contents={[<Course text="Course" grade="100" credits="3" key="1"/>,
+        <Course text="Course" grade="100" credits="3" key="2"/>,
+        <Course text="Course" grade="100" credits="3" key="3"/>]}
         text="Requirement"
         completed="50%"
         icon={<WatchLaterIcon/>}
         cip="5/12"
+        key="r1"
     />,
     <Collapsible
-        contents={[<Course text="Course" grade="100" credits="3" />,
-        <Course text="Course" grade="100" credits="3" />,
-        <Course text="Course" grade="100" credits="3" />]}
+        contents={[<Course text="Course" grade="100" credits="3" key="1"/>,
+        <Course text="Course" grade="100" credits="3" key="2"/>,
+        <Course text="Course" grade="100" credits="3" key="3"/>]}
         text="Requirement"
         completed="100%"
         cip="12/12"
         icon={<CheckIcon/>}
+        key="r2"
     />,
     <Collapsible
         contents={[]}
@@ -30,6 +32,7 @@ export default function Degree() {
         completed="0%"
         cip="0/12"
         icon={<CancelIcon/>}
+        key="r3"
     />
     ];
 
