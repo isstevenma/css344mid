@@ -24,6 +24,7 @@
 }
 
 .buttonAfter {
+    background-color: rgba(57, 162, 219, 0.7);
     &::after {
         content: "\25b4";
     }
@@ -45,21 +46,22 @@
 }
 
 .infoSection {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: [index] minmax(60px, 1fr) [first] minmax(60px, 1fr) [second] minmax(60px, 1fr) [last] minmax(60px, 0.5fr);
+    grid-gap: 1.1rem;
 }
 
 .span {
     font-size: 1rem;
-    margin: 0 2rem;
+    padding: 0 0.2rem;
 }
 
 .spanIcon{
-    margin-left: auto;
+    padding-right: 1px;
+    padding: 0 0.2rem;
 }
 
 .requirement {
-    padding-right: 14rem;
     font-size: 1rem;
+    padding: 0 0.2rem;
 }
