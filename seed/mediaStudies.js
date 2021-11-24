@@ -7,7 +7,7 @@ import CancelIcon from '@mui/icons-material/Cancel';
 
 let coureCourses = [
     <Collapsible
-    content={[
+    contents={[
         <Course text="VISA110" grade="Grade: 100" credits="Credits: 3" key="1"/>,
         <Course text="VISA210" grade="Grade: 100" credits="Credits: 3" key="2"/>,
         <Course text="VISA241" grade="Grade: 100" credits="Credits: 3" key="3"/>,
@@ -35,7 +35,7 @@ let coureCourses = [
 
 let courePlusCourses = [
     <Collapsible
-    content={[
+    contents={[
         <Course text="CRWR206" grade="Grade: 100" credits="Credits: 3" key="1"/>,
         <Course text="CPSC210" grade="Grade: 100" credits="Credits: 3" key="2"/>,
         <Course text="ACAM250" grade="Grade: 100" credits="Credits: 3" key="3"/>,

@@ -185,8 +185,8 @@ export default function Degree() {
                 <h2 className={styles.h1}>Culmulative GPA: 100</h2>
             </div>
             <div className={styles.collapsibleWrapper}>
-                <Collapsible contents={cpscMajor} text="Computer Science" completed="58%" cip="70/120" icon={<WatchLaterIcon/>}/>
-                <Collapsible contents={mediaStudies} text="Media Studies" completed="50%" cip="60/120" icon={<WatchLaterIcon/>}/>
+                <Collapsible contents={cpscMajor} text="Computer Science (BA)" completed="58%" cip="70/120" icon={<WatchLaterIcon/>}/>
+                <Collapsible contents={mediaStudies} text="Media Studies (BA)" completed="50%" cip="60/120" icon={<WatchLaterIcon/>}/>
             </div>
         </section>
     )
