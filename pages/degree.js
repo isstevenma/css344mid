@@ -66,7 +66,6 @@ export default function Degree() {
     icon={<WatchLaterIcon/>}
     cip="4"
     key="r1"
-    style={childrenBG}
     />
 ]
     let bee = [

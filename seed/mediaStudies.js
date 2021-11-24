@@ -59,7 +59,7 @@ let electives = [
             <Course text="CRWR 213" grade="Grade: 100" credits="Credits: 3" key="5"/>
             ]}
         text="Electives (Any)"
-        completed="36% | 15/42"
+        completed="33% | 15/45"
         cip="0"
         icon={<WatchLaterIcon/>}
         key="r12"
@@ -80,6 +80,31 @@ let upperLevel = [
     />
 ]
 
-const mediaStudies = [coureCourses, courePlusCourses, electives, upperLevel];
+let arts = [<Collapsible
+    contents={[<Collapsible
+        contents={[<Course text="ENGL100" grade="Grade: 100" credits="Credits: 3" key="1"/>]}
+        text="Writing Component"
+        completed="100% | 3/3"
+        icon={<CheckIcon/>}
+        cip="0"
+         key="r1"
+    />,
+    <Collapsible
+        contents={[<Course text="VISA401" grade="Grade: CIP" credits="Credits: 3" key="1"/>]}
+        text="Research Component"
+        completed="0% | 0/3"
+        cip="3"
+        icon={<CheckIcon/>}
+        key="r2"
+    />]}
+    text= "Art Requirements"
+    completed="50% | 3/6"
+    icon={<WatchLaterIcon/>}
+    cip="3"
+    key="r1"
+    />
+]
+
+const mediaStudies = [arts, coureCourses, courePlusCourses, electives, upperLevel];
 export default mediaStudies;
 
