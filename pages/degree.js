@@ -23,7 +23,7 @@ export default function Degree() {
         text="Research Component"
         completed="0% | 0/3"
         cip="4"
-        icon={<CancelIcon/>}
+        icon={<WatchLaterIcon/>}
         key="r2"
     />,
     //add link
