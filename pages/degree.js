@@ -190,7 +190,7 @@ export default function Degree() {
             </div>
             <div className={styles.collapsibleWrapper}>
                 <Collapsible contents={cpscMajor} text="Computer Science (BA)" completed="58% | 70/120" cip="10" icon={<WatchLaterIcon/>}/>
-                <Collapsible contents={mediaStudies} text="Media Studies (BA)" completed="50% | 60/120" cip="12" icon={<WatchLaterIcon/>}/>
+                <Collapsible contents={mediaStudies} text="Media Studies (BA)" completed="52% | 63/120" cip="12" icon={<WatchLaterIcon/>}/>
             </div>
         </section>
     )

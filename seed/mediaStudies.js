@@ -92,17 +92,17 @@ let arts = [<Collapsible
          key="r1"
     />,
     <Collapsible
-        contents={[<Course text="VISA401" grade="Grade: CIP" credits="Credits: 3" key="1"/>]}
+        contents={[<Course text="VISA401" grade="Grade: 80" credits="Credits: 3" key="1"/>]}
         text="Research Component"
-        completed="0% | 0/3"
-        cip="3"
-        icon={<WatchLaterIcon/>}
+        completed="100% | 3/3"
+        cip="0"
+        icon={<CheckIcon/>}
         key="r2"
     />]}
     text= "Art Requirements"
-    completed="50% | 3/6"
-    icon={<WatchLaterIcon/>}
-    cip="3"
+    completed="100% | 6/6"
+    icon={<CheckIcon/>}
+    cip="0"
     key="r1"
     />
 ]
