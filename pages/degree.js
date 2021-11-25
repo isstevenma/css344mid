@@ -138,7 +138,7 @@ export default function Degree() {
         contents = {[<Collapsible
             contents={[<Course text="ENGL 227" grade="Grade: 80" credits="Credits: 3" key="1"/>,
                 <Course text="CRWR 200" grade="Grade: 60" credits="Credits: 3" key="1"/>,
-                <Course text={<a href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea">Link to suggestions</a>}/>]}
+                <Course text={<a href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea">Link to suggestions</a>} key="3"/>]}
             text="Electives Outside of CPSC"
             completed="15% | 6/39"
             cip="0"
@@ -149,7 +149,7 @@ export default function Degree() {
             contents={[<Course text="ENGL 112" grade="Grade: 80" credits="Credits: 3" key="1"/>,
                 <Course text="CRWR 203" grade="Grade: 90" credits="Credits: 3" key="1"/>,
                 <Course text="CRWR 213" grade="Grade: 70" credits="Credits: 3" key="1"/>,
-                <Course text={<a href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea">Link to suggestions</a>}/>]}
+                <Course text={<a href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea">Link to suggestions</a>} key="4"/>]}
             text="Electives (Any)"
             completed="100% | 9/7"
             cip="0"

@@ -23,7 +23,7 @@ let coureCourses = [
         <Course text="ARTH380" grade="Grade: 81" credits="Credits: 3" key="13"/>,
         <Course text="CRWR312" grade="Grade: 75" credits="Credits: 3" key="14"/>,
         <Course text="ENGL332" grade="Grade: 63" credits="Credits: 3" key="15"/>,
-        <Course text={<a href="https://www.calendar.ubc.ca/Vancouver/index.cfm?tree=12,197,955,1523">Link to other required courses</a>}/>
+        <Course text={<a href="https://www.calendar.ubc.ca/Vancouver/index.cfm?tree=12,197,955,1523">Link to other required courses</a>} key="16"/>
     ]}
     text="Core Courses"
     completed="68% | 36/66"
@@ -40,7 +40,7 @@ let courePlusCourses = [
         <Course text="CPSC210" grade="Grade: 92" credits="Credits: 3" key="2"/>,
         <Course text="ACAM250" grade="Grade: 82" credits="Credits: 3" key="3"/>,
         <Course text="ENGL201" grade="Grade: CIP" credits="Credits: 3" key="4"/>,
-        <Course text={<a href="https://www.calendar.ubc.ca/Vancouver/index.cfm?tree=12,197,955,1523">Link to other qualifiable courses"</a>}/>
+        <Course text={<a href="https://www.calendar.ubc.ca/Vancouver/index.cfm?tree=12,197,955,1523">Link to other qualifiable courses"</a>} key="5"/>
     ]}
     text="Core Plus Courses"
     completed="75% | 9/12"
@@ -57,7 +57,7 @@ let electives = [
         <Course text="CRWR 200" grade="Grade: 81" credits="Credits: 3" key="3"/>,
             <Course text="CRWR 203" grade="Grade: 70" credits="Credits: 3" key="4"/>,
             <Course text="CRWR 213" grade="Grade: 75" credits="Credits: 3" key="5"/>,
-            <Course text={<a href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea">Link to suggestions</a>}/>
+            <Course text={<a href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea">Link to suggestions</a>} key="6"/>
             ]}
         text="Electives (Any)"
         completed="33% | 15/45"
