@@ -14,7 +14,7 @@ const Header = () => {
                         <div className={styles.formWrapper}>
                         <form className={styles.form}>
                             <input type="text" placeholder="Search" className={styles.search} />
-                            <button>plab</button>
+                            <button>Search</button>
                         </form>
                         </div>
                     </div>

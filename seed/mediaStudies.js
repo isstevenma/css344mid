@@ -20,9 +20,9 @@ let coureCourses = [
         <Course text="CRWR213" grade="Grade: 79" credits="Credits: 3" key="10"/>,
         <Course text="CPSC110" grade="Grade: 89" credits="Credits: 3" key="11"/>,
         <Course text="ASTU100" grade="Grade: 84" credits="Credits: 3" key="12"/>,
-        <Course text="ARTH380" grade="Grade: 81" credits="Credits: 3" key="13"/>,
-        <Course text="CRWR312" grade="Grade: 75" credits="Credits: 3" key="14"/>,
-        <Course text="ENGL332" grade="Grade: 63" credits="Credits: 3" key="15"/>,
+        <Course text="ARTH380" grade="Grade: CIP" credits="Credits: 3" key="13"/>,
+        <Course text="CRWR312" grade="Grade: CIP" credits="Credits: 3" key="14"/>,
+        <Course text="ENGL332" grade="Grade: CIP" credits="Credits: 3" key="15"/>,
         <Course text={<a href="https://www.calendar.ubc.ca/Vancouver/index.cfm?tree=12,197,955,1523">Link to other required courses</a>} key="16"/>
     ]}
     text="Core Courses"
@@ -74,9 +74,9 @@ let upperLevel = [
         <Course text="ARTH380" grade="Grade: CIP" credits="Credits: 3" key="13"/>,
         <Course text="CRWR312" grade="Grade: CIP" credits="Credits: 3" key="14"/>,
         <Course text="ENGL332" grade="Grade: CIP" credits="Credits: 3" key="15"/>]}
-        text="Upper-level Courses"
+        text="Upper-level Courses (Overlaps)"
         completed="21% | 10/48"
-        cip="0"
+        cip="9"
         icon={<WatchLaterIcon/>}
         key="r12"
     />
