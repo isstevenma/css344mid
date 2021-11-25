@@ -62,7 +62,7 @@ let electives = [
         text="Electives (Any)"
         completed="33% | 15/45"
         cip="0"
-        icon={<WatchLaterIcon/>}
+        icon={<CancelIcon/>}
         key="r12"
     />
 ]
@@ -96,7 +96,7 @@ let arts = [<Collapsible
         text="Research Component"
         completed="0% | 0/3"
         cip="3"
-        icon={<CheckIcon/>}
+        icon={<WatchLaterIcon/>}
         key="r2"
     />]}
     text= "Art Requirements"

@@ -121,7 +121,7 @@ export default function Degree() {
             contents={[<Course text={<a href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-department&dept=CPSC">Link to suggestions</a>} key="1"/>]}
             text="400 or above Courses"
             completed="0%"
-            cip="0/9"
+            cip="0"
             icon={<CancelIcon/>}
             key="r11"
         />]}
@@ -142,7 +142,7 @@ export default function Degree() {
             text="Electives Outside of CPSC"
             completed="15% | 6/39"
             cip="0"
-            icon={<WatchLaterIcon/>}
+            icon={<CancelIcon/>}
             key="r12"
         />,
         <Collapsible
@@ -159,7 +159,7 @@ export default function Degree() {
         text = "Electives"
         completed="28% | 13/46"
         cip="0"
-        icon={<WatchLaterIcon/>}
+        icon={<CancelIcon/>}
         key="r1"
         />
     ]
@@ -172,10 +172,10 @@ export default function Degree() {
                 <Course text="CPSC 320" grade="Grade: 90" credits="Credits: 3" key="1"/>,
                 <Course text={<a href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-department&dept=CPSC">Link to suggestions</a>} key="1"/>
             ]}
-            text="Upper-Level Courses"
+            text="Upper-Level Courses (Overlaps)"
             completed="21% | 10/48"
             cip="0"
-            icon={<WatchLaterIcon/>}
+            icon={<CancelIcon/>}
             key="r12"
         />
     ]
