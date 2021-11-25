@@ -105,7 +105,7 @@ export default function Degree() {
             text="Third Year Requirements"
             completed="0% | 0/10"
             cip="10"
-            icon={<CheckIcon/>}
+            icon={<WatchLaterIcon/>}
             key="r9"
         />,
         <Collapsible
