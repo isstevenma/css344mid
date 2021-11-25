@@ -20,9 +20,9 @@
 }
 
 .infoSection {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: [index] minmax(60px, 2fr) [first] minmax(60px, 1fr) [second] minmax(60px, 1fr) [last] minmax(60px, 0.5fr);
+    grid-gap: 1.1rem;
 }
 
 .span {
