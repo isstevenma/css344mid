@@ -99,12 +99,12 @@ export default function Degree() {
             key="r8"
         />,
         <Collapsible
-            contents={[<Course text="CPSC 310" grade="Grade: 70" credits="Credits: 4" key="1"/>,
+            contents={[<Course text="CPSC 310" grade="Grade: CIP" credits="Credits: 4" key="1"/>,
                        <Course text="CPSC 313" grade="Grade: CIP" credits="Credits: 3" key="1"/>,
                        <Course text="CPSC 320" grade="Grade: CIP" credits="Credits: 3" key="1"/>]}
             text="Third Year Requirements"
-            completed="40% | 4/10"
-            cip="6"
+            completed="0% | 0/10"
+            cip="10"
             icon={<CheckIcon/>}
             key="r9"
         />,
@@ -189,7 +189,7 @@ export default function Degree() {
                 <h2 className={styles.h1}>Culmulative GPA: 100</h2>
             </div>
             <div className={styles.collapsibleWrapper}>
-                <Collapsible contents={cpscMajor} text="Computer Science (BA)" completed="58% | 70/120" cip="10" icon={<WatchLaterIcon/>}/>
+                <Collapsible contents={cpscMajor} text="Computer Science (BA)" completed="55% | 66/120" cip="10" icon={<WatchLaterIcon/>}/>
                 <Collapsible contents={mediaStudies} text="Media Studies (BA)" completed="52% | 63/120" cip="12" icon={<WatchLaterIcon/>}/>
             </div>
         </section>
